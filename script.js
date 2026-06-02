@@ -1,6 +1,6 @@
 let score = 0;
 
-const target = 20;
+const target = 10;
 
 const scoreDisplay = document.getElementById("score");
 const playArea = document.getElementById("playArea");
