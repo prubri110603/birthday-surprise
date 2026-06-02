@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background: linear-gradient(#ffb6c1, #fff);
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+#score {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+#playArea {
+    position: relative;
+    width: 100vw;
+    height: 80vh;
+}
+
+.heart {
+    position: absolute;
+    font-size: 40px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.hidden {
+    display: none;
+}
+
+#message {
+    padding: 40px;
+}
